@@ -1,0 +1,103 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+    /* border-style: dashed;
+    border-width: 1;
+    border-color: black; */
+}
+.hyperlink {
+    color: rgb(0, 122, 200);
+}
+
+/* --------------- Header Bar ---------------- */
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: grey;
+    padding: 10px 30px;
+    margin: 0px 15%;
+}#header_title {
+    font-size: 27pt;
+    font-family: cursive;
+}#search_bar {
+    font-family: cursive;
+    font-size: 13pt;
+    width: 50%;
+    height: 70%;
+    padding: 5px;
+
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+}#login_logout {
+    font-size: 14pt;
+    height: 70%;
+    width: 80px;
+    background-color: rgb(51, 94, 212);
+    color: whitesmoke;
+    border-color: black;
+    box-shadow: black 3px 3px;
+}
+
+/* ----------------- Main Webpage ----------------- */
+#content {
+    padding: 25px 15%;
+    display: flex;
+    justify-content: space-between;
+}#definitions {
+    font-family: cursive;
+    flex: 4;
+    overflow: auto;
+}#side_bar{
+    flex: 1;
+}
+
+/* ---------------- Definition Cards --------------- */
+.def_card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-style: solid;
+    padding: 15px;
+    margin: 0px 50px 20px 0px;
+}.def_attributes {
+    flex: 1;
+    display: inline-block;
+    text-align: center;
+}.sentence_structure, .plural_form span {
+    font-weight: normal;
+    font-style: italic;
+}.plural_form {
+    font-weight: normal;
+}.like_button {
+    background-color: gold;
+    border-color: black;
+    box-shadow: 2px 2px;
+    padding: 5px 15px;
+    margin-top: 30px;
+}.def {
+    flex: 5;
+    padding: 10px 40px;
+}
+
+/* ----------------- Add Definition Card ------------- */
+#side_bar div {
+    text-align: center;
+    font-family: cursive;
+    border-style: solid;
+    padding: 10px 10px 25px;
+    margin: 0px 0px 20px;
+}#add_card_title {
+    font-weight: normal;
+}#add_card_title span {
+    font-weight: bold;
+}#add_def {
+    background-color: olivedrab;
+    margin-top: 15px;
+    padding: 7px 25px;
+    font-size: 12pt;
+    border-color: black;
+    box-shadow: black 3px 3px;
+}

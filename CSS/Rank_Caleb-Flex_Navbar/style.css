@@ -1,0 +1,32 @@
+.nav {
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2%;
+    background-color: rgb(37, 37, 37);
+}
+
+.nav-title, .active {
+    color: whitesmoke;
+}
+
+.nav-links {
+    width: 40%;
+    list-style-type: none;
+    display: flex;
+    justify-content:space-between;
+}
+
+li, a {
+    color: gray;
+    text-decoration: none;
+}
+
+.btn {
+    background-color: rgba(0, 255, 255, 0.555);
+    color: whitesmoke;
+    font-weight: bolder;
+    border-color: black;
+    box-shadow: black 3px 3px;
+}

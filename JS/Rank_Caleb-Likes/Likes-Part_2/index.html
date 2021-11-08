@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Caleb Rank | Likes - Part 2</title>
+</head>
+
+<body>
+
+    <h1 id="title_bar">Network</h1>
+    <h1>Your Feed</h1>
+
+    <div id="content">
+        <div id="profile">
+            <img src="icons/user.png" alt="profile_icon">
+            <a href="#" class="hyperlink">Add an avatar</a>
+            <h2 class="post_user" id="user">James Doe</h2>
+        </div>
+
+        <div id="feed">
+            <div class="post">
+                <div class="post_header">
+                    <h2 class="post_user">Neil M</h2>
+                    <p class=post_likes id=num_likes_0>0 likes</p>
+                    <button class="btn_like" onclick="addLike(0)">Like</button>
+                </div>
+                <p class="post_content">
+                    I just set up this new discord bot, let me know what you all think.
+                    <a href="#" class="hyperlink"> link</a>
+                </p>
+            </div>
+
+            <div class="post">
+                <div class="post_header">
+                    <h2 class="post_user">Nichole K</h2>
+                    <p class=post_likes id=num_likes_1>0 likes</p>
+                    <button class="btn_like" onclick="addLike(1)">Like</button>
+                </div>
+                <p class="post_content">
+                    Just finished my
+                    <a href="#" class="hyperlink">next comic</a>
+                    , check it out.
+                </p>
+            </div>
+
+            <div class="post">
+                <div class="post_header">
+                    <h2 class="post_user">Jim R</h2>
+                    <p class=post_likes id=num_likes_2>0 likes</p>
+                    <button class="btn_like" onclick="addLike(2)">Like</button>
+                </div>
+                <p class="post_content">
+                    I can't stop listening to the
+                    <a href="#" class="hyperlink">new album</a>
+                    . Who else is liking it?
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Caleb Rank | Profile Page</title>
+</head>
+
+<body>
+
+    <div class="nav">
+        <div class="nav-left">
+            <h1 class="nav-title">Profile</h1>
+            <ul class="nav-links">
+                <li><a href="#" class="inactive">Home</a></li>
+                <li><a href="#" class="active">My Profile</a></li>
+                <li><a href="#" class="inactive">Find Connections</a></li>
+            </ul>
+        </div>
+        <button class="sign_out">Sign Out</button>
+    </div>
+
+    <div class="main_layout">
+
+        <div class="layout_content">
+            <div class="profile_card">
+                <img src="icons/user-circle.png" alt="user-circle" class="profile_photo">
+                <div class="user_info">
+                    <h1 id="user_name">Jane Doe</h1>
+                    <p class="address"><img src="icons/map-marker.png" alt="map-marker" class="map_marker">
+                        Seattle
+                    </p>
+                    <p class="text_content">Developer | Engineer | Problem Solver</p>
+                    <p class="content_text">Master of shadows and the Internet!</p>
+                    <p>
+                        <img src="icons/gear.png" alt="blue-gear" class="gear">
+                        <a href="#" class="hyperlink" onclick="editProfile()">edit profile</a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="main_card">
+                <h3 class="card_header">Education</h3>
+                <div class="content">
+                    <h2 class="card_section">Coding Dojo - Full Stack Bootcamp</h2>
+                    <h4 class="card_date">Dec 2019 - Mar 2020</h4>
+                    <p class="content_text">Triple black belt in Python, MERN, and C#...</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="side_bar">
+            <div class="side_card" id="con_request">
+                <h3 class="card_header"><span id="req_num">2</span>Connection Requests</h3>
+                <div>
+                    <div class="request"  id="req_1">
+                        <div class="request_user">
+                            <img src="icons/user-circle.png" alt="user-circle" class="conn_photo">
+                            <p>Todd E</p>
+                        </div>
+                        <div>
+                            <img src="icons/accept-circle.png" alt="accept-circle" class="conn_photo" onclick="acceptRequest(1)">
+                            <img src="icons/close-circle.png" alt="close-circle" class="conn_photo" onclick="denyRequest(1)">
+                        </div>
+                    </div>
+                    <div class="request"  id="req_2">
+                        <div class="request_user">
+                            <img src="icons/user-circle.png" alt="user-circle" class="conn_photo">
+                            <p>Phil K</p>
+                        </div>
+                        <div>
+                            <img src="icons/accept-circle.png" alt="accept-circle" class="conn_photo" onclick="acceptRequest(2)">
+                            <img src="icons/close-circle.png" alt="close-circle" class="conn_photo" onclick="denyRequest(2)">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="side_card">
+                <div id="connections">
+                    <h3 class="card_header"><span id="connect_num">418</span>Your Connections</h3>
+                    <div class="your_connections">
+                        <img src="icons/user-circle.png" alt="user-circle" class="conn_photo">
+                        <p>Adrien D</p>
+                    </div>
+                    <div class="your_connections">
+                        <img src="icons/user-circle.png" alt="user-circle" class="conn_photo">
+                        <p>Anne J</p>
+                    </div>
+                    <div class="your_connections">
+                        <img src="icons/user-circle.png" alt="user-circle" class="conn_photo">
+                        <p>Alayne T</p>
+                    </div>
+                    <div class="your_connections">
+                        <img src="icons/user-circle.png" alt="user-circle" class="conn_photo">
+                        <p>Arry Y</p>
+                    </div>
+                </div>
+                <a href="#" class="hyperlink" id="view_more">View More</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

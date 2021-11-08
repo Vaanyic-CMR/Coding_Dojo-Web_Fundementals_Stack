@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+
+<body>
+    <h1>Registration Form</h1>
+
+    <div>
+        <label>First Name: *
+            <input type="text" name="firstName" id="txtFirstName">
+        </label>
+    </div>
+    <div>
+        <label>Last Name: *
+            <input type="text" name="lastName" id="txtLastName">
+        </label>
+    </div>
+    <div>
+        <label>Email Address: *
+            <input type="text" name="emailAddress" id="txtEmailAddress">
+        </label>
+    </div>
+    <div>
+        <label>Password: *
+            <input type="password" name="password" id="txtPassword">
+        </label>
+    </div>
+    <div>
+        <label>Confirm Password: *
+            <input type="password" name="passConfirm" id="txtPassConfirm">
+        </label>
+    </div>
+    <div>
+        <label>Birthday:
+            <input type="date" name="birthday" id="txtBirthday">
+        </label>
+    </div>
+
+    <label>Gender Identity:</label>
+    <div>
+        <label>
+            <input type="radio" name="male" id="rdMale">
+            Male
+        </label>
+        <label">
+            <input type="radio" name="Female" id="rdFemale">
+            Female
+            </label>
+            <label>
+                <input type="radio" name="nonbinary" id="rdNonBinary">
+                Non-binary
+            </label>
+            <label>
+                <input type="radio" name="noAnswer" id="rdNoAnswer">
+                I prefer not to answer.
+            </label>
+    </div>
+
+    <label>A short description about myself:</label>
+    <div>
+        <textarea name="description" id="txtaDescription" cols="30" rows="3"></textarea>
+    </div>
+
+    <label>Favorite Language
+        <select name="faveLanguage" id="txtsFaveLanguage">
+            <option value="javascript">JavaScript</option>
+            <option value="python">Python</option>
+            <option value="cLanguages">C++/C#</option>
+            <option value="visualBasic">Visual Basic</option>
+        </select>
+    </label>
+    <div>
+        <label>
+            <input type="checkbox" name="emailUpdate" id="chkEmailUpdate">
+            Yes, I would like to receive periodic email updates.
+        </label>
+    </div>
+
+    <input type="submit" value="Create Account">
+    <div>
+        <label>* Indicates a required field.</label>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,38 @@
+body {
+    background-color: whitesmoke;
+}
+
+h1 {
+    text-align: center;
+    color: darkslategrey;
+    padding-top: 2%;
+}
+
+a {
+    color: blue;   
+}
+
+.row {
+    margin: 3%;
+    padding: 2%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#row1 {
+    background-color: aqua;
+}
+
+#row2 {
+    background-color: palevioletred;
+}
+
+#row3 {
+    background-color: greenyellow;
+}
+
+#foot {
+    text-align: center;
+    color: darkslategrey;
+    padding-bottom: 3%;
+}

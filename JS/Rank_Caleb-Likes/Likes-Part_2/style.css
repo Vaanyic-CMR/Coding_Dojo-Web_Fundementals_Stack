@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+}
+.hyperlink {
+    color: rgb(0, 122, 200);
+    font-size: 13pt;
+}
+h1 {
+    text-align: center;
+    padding: 10px 20px;
+    margin: 0px 25%;
+}
+#title_bar {
+    background-color: black;
+    color: whitesmoke;
+    text-align: left;
+}
+#content {
+    display: flex;
+    padding: 0px 25%;
+}
+
+/* ------------------- Profile ------------------ */
+#profile {
+    flex: 1;
+    border-style: solid;
+    margin: 0px 20px 20px 0px;
+    padding: 10px;
+    width: 150px;
+    height: fit-content;
+}#profile img {
+    display: block;
+    width: 75px;
+    margin-left: 25%;
+}#profile a {
+    display: block;
+    text-align: center;
+    margin: 20px;
+}#profile h2 {
+    display: block;
+    width: inherit;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* --------------- Feed Post Cards -------------- */
+#feed {
+    flex: 5;
+    /* border-style: dashed; */
+}
+.post {
+    display: block;
+    border-style: solid;
+    /* width: 400px; */
+    padding: 20px;
+    margin: 0px 0px 20px 20px;
+}
+.post_header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}.post_user {
+    flex: 10;
+    width: 250px;
+    font-weight: normal;
+}.post_likes {
+    flex: 2;
+    width: 75px;
+    font-size: large;
+}.btn_like {
+    flex: 1;
+    background-color: gold;
+    border-color: black;
+    box-shadow: 3px 3px;
+    padding: 5px 15px;
+    height: 37px;
+    font-size: large;
+}
+.post_content {
+    margin-bottom: 20px;
+    font-size: 13pt;
+}

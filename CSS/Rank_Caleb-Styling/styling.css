@@ -1,0 +1,39 @@
+*{
+    font-family: monospace;
+    padding-left: 10px;
+    padding-right: 10px
+}
+
+h1 {
+    background-color: black;
+    font-weight: bolder;
+    font-size: 50px;
+    padding-bottom: 5px;
+}#span1 {
+    color: white;
+    padding-right: 0px;
+}#span2 {
+    color:aqua;
+    padding-left: 0px;
+}
+
+h2 {
+    background-color: blueviolet;
+    color: white;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    text-align: center;
+    font-style: italic;
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+h3 {
+    background-color: lightblue;
+    color: navy;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    text-align: right;
+    text-decoration: underline;
+    font-size: 20px;
+}

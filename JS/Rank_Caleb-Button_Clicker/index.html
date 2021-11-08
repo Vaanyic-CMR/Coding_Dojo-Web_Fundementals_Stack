@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Caleb Rank | Button Clicker</title>
+</head>
+
+<body>
+
+    <div id="header">
+        <h1 id="header_title">Dojonary</h1>
+        <input type="text" placeholder="Search..." id="search_bar">
+        <button onclick="clickLoginLogout(this)" id="login_logout">Login</button>
+    </div>
+
+    <div id="content">
+        <div id="definitions">
+            <div class=def_card>
+                <div class="def_attributes">
+                    <h1 class=searched_word>ninja</h1>
+                    <h3 class=sentence_structure>noun</h3>
+                    <h4 class="plural_form">Plural: <span>ninjas</span></h4>
+                    <button onclick="clickLike(this)" class="like_button">13 Likes</button>
+                </div>
+                <p class="def">
+                    A practitioner skilled in the 
+                    <a href="#" class="hyperlink">Japanese</a> 
+                    art of 
+                    <a href="#" class="hyperlink">ninjutsu</a>.
+                </p>
+            </div>
+            <div class=def_card>
+                <div class="def_attributes">
+                    <h1 class=searched_word>ninja</h1>
+                    <h3 class=sentence_structure>noun</h3>
+                    <h4 class="plural_form">Plural: <span>ninjas</span></h4>
+                    <button onclick="clickLike(this)" class="like_button">37 Likes</button>
+                </div>
+                <p class="def">
+                    A <a href="#" class="hyperlink">programmer</a> 
+                    who breaks down problems with 
+                    <a href="#" class="hyperlink">zen</a>-like focus.
+                </p>
+            </div>
+        </div>
+
+        <div id="side_bar">
+            <div>
+                <h2 id=add_card_title>Dojonary is defined by <span>YOU</span></h2>
+                <button onclick="addDefinition(this)" id="add_def">Add Definition</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

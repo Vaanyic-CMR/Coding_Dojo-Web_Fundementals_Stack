@@ -1,0 +1,27 @@
+.post {
+    display: inline-block;
+    border-style: solid;
+    width: 400px;
+    padding: 0px 20px;
+}
+.post_header {
+    display: flex;
+    align-items: center;
+}.post_user {
+    width: 250px;
+    font-weight: normal;
+}.post_likes {
+    width: 75px;
+    font-size: large;
+}.btn_like {
+    background-color: gold;
+    border-color: black;
+    box-shadow: 3px 3px;
+    padding: 5px 15px;
+    height: 37px;
+    font-size: large;
+}
+.post_content {
+    margin-bottom: 20px;
+    font-size: 13pt;
+}
